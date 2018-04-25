@@ -13,6 +13,14 @@
 		182A7FF8209031A7009B244B /* SQAPPSTARTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A7FF7209031A7009B244B /* SQAPPSTARTTests.m */; };
 		182A8003209031A7009B244B /* SQAPPSTARTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8002209031A7009B244B /* SQAPPSTARTUITests.m */; };
 		182A802420903719009B244B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A802320903718009B244B /* Default-568h@2x.png */; };
+		182A8035209052FB009B244B /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8028209052FB009B244B /* TAAbstractDotView.m */; };
+		182A8036209052FB009B244B /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A802A209052FB009B244B /* TAAnimatedDotView.m */; };
+		182A8037209052FB009B244B /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A802C209052FB009B244B /* TADotView.m */; };
+		182A8038209052FB009B244B /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A802E209052FB009B244B /* TAPageControl.m */; };
+		182A8039209052FB009B244B /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8030209052FB009B244B /* SDCollectionViewCell.m */; };
+		182A803A209052FB009B244B /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8032209052FB009B244B /* SDCycleScrollView.m */; };
+		182A803B209052FB009B244B /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8034209052FB009B244B /* UIView+SDExtension.m */; };
+		996360B8AA029987D621F671 /* libPods-SQAPPSTART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,23 @@
 		182A8002209031A7009B244B /* SQAPPSTARTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQAPPSTARTUITests.m; sourceTree = "<group>"; };
 		182A8004209031A7009B244B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182A802320903718009B244B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		182A8027209052FB009B244B /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		182A8028209052FB009B244B /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		182A8029209052FB009B244B /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		182A802A209052FB009B244B /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		182A802B209052FB009B244B /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		182A802C209052FB009B244B /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		182A802D209052FB009B244B /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		182A802E209052FB009B244B /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		182A802F209052FB009B244B /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		182A8030209052FB009B244B /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		182A8031209052FB009B244B /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		182A8032209052FB009B244B /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		182A8033209052FB009B244B /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		182A8034209052FB009B244B /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		7F81FF23EACCE665CD687ECC /* Pods-SQAPPSTART.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAPPSTART.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART.debug.xcconfig"; sourceTree = "<group>"; };
+		D1EED8B745BDDA93AD30815D /* Pods-SQAPPSTART.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAPPSTART.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART.release.xcconfig"; sourceTree = "<group>"; };
+		FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQAPPSTART.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996360B8AA029987D621F671 /* libPods-SQAPPSTART.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16C6589ABB3CEE1B1C66457D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		182A7FD2209031A6009B244B = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +114,8 @@
 				182A7FF6209031A7009B244B /* SQAPPSTARTTests */,
 				182A8001209031A7009B244B /* SQAPPSTARTUITests */,
 				182A7FDC209031A6009B244B /* Products */,
+				5B21A265552B6D6BB8AF58D8 /* Pods */,
+				16C6589ABB3CEE1B1C66457D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +214,7 @@
 		182A801520903231009B244B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				182A8025209052FB009B244B /* SDCycleScrollView */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -276,6 +313,44 @@
 			path = AppLogin;
 			sourceTree = "<group>";
 		};
+		182A8025209052FB009B244B /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				182A8026209052FB009B244B /* PageControl */,
+				182A802F209052FB009B244B /* SDCollectionViewCell.h */,
+				182A8030209052FB009B244B /* SDCollectionViewCell.m */,
+				182A8031209052FB009B244B /* SDCycleScrollView.h */,
+				182A8032209052FB009B244B /* SDCycleScrollView.m */,
+				182A8033209052FB009B244B /* UIView+SDExtension.h */,
+				182A8034209052FB009B244B /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		182A8026209052FB009B244B /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				182A8027209052FB009B244B /* TAAbstractDotView.h */,
+				182A8028209052FB009B244B /* TAAbstractDotView.m */,
+				182A8029209052FB009B244B /* TAAnimatedDotView.h */,
+				182A802A209052FB009B244B /* TAAnimatedDotView.m */,
+				182A802B209052FB009B244B /* TADotView.h */,
+				182A802C209052FB009B244B /* TADotView.m */,
+				182A802D209052FB009B244B /* TAPageControl.h */,
+				182A802E209052FB009B244B /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		5B21A265552B6D6BB8AF58D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F81FF23EACCE665CD687ECC /* Pods-SQAPPSTART.debug.xcconfig */,
+				D1EED8B745BDDA93AD30815D /* Pods-SQAPPSTART.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -283,9 +358,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182A8007209031A7009B244B /* Build configuration list for PBXNativeTarget "SQAPPSTART" */;
 			buildPhases = (
+				7331574F6152B4E5279C1CC1 /* [CP] Check Pods Manifest.lock */,
 				182A7FD7209031A6009B244B /* Sources */,
 				182A7FD8209031A6009B244B /* Frameworks */,
 				182A7FD9209031A6009B244B /* Resources */,
+				62940C846616CF51825BF051 /* [CP] Embed Pods Frameworks */,
+				EBC89DEC8D2BA1893107DED8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -400,13 +478,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62940C846616CF51825BF051 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7331574F6152B4E5279C1CC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQAPPSTART-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC89DEC8D2BA1893107DED8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/DXPopover/DXPopover.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DXPopover.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		182A7FD7209031A6009B244B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182A8036209052FB009B244B /* TAAnimatedDotView.m in Sources */,
 				182A7FEE209031A7009B244B /* main.m in Sources */,
+				182A8039209052FB009B244B /* SDCollectionViewCell.m in Sources */,
+				182A8035209052FB009B244B /* TAAbstractDotView.m in Sources */,
+				182A803B209052FB009B244B /* UIView+SDExtension.m in Sources */,
 				182A7FE0209031A6009B244B /* AppDelegate.m in Sources */,
+				182A8037209052FB009B244B /* TADotView.m in Sources */,
+				182A8038209052FB009B244B /* TAPageControl.m in Sources */,
+				182A803A209052FB009B244B /* SDCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +699,7 @@
 		};
 		182A8008209031A7009B244B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F81FF23EACCE665CD687ECC /* Pods-SQAPPSTART.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -570,6 +716,7 @@
 		};
 		182A8009209031A7009B244B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1EED8B745BDDA93AD30815D /* Pods-SQAPPSTART.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
