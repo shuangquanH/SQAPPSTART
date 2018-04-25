@@ -20,6 +20,10 @@
 		182A8039209052FB009B244B /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8030209052FB009B244B /* SDCollectionViewCell.m */; };
 		182A803A209052FB009B244B /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8032209052FB009B244B /* SDCycleScrollView.m */; };
 		182A803B209052FB009B244B /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8034209052FB009B244B /* UIView+SDExtension.m */; };
+		182A803E20905957009B244B /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A803D20905957009B244B /* UINavigationController+FDFullscreenPopGesture.m */; };
+		182A804120905977009B244B /* SQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A804020905977009B244B /* SQBaseViewController.m */; };
+		182A804420905AC7009B244B /* SQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A804320905AC7009B244B /* SQBaseTableViewController.m */; };
+		182A804720905B2F009B244B /* SQBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A804620905B2F009B244B /* SQBaseWebViewController.m */; };
 		996360B8AA029987D621F671 /* libPods-SQAPPSTART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +72,19 @@
 		182A8032209052FB009B244B /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
 		182A8033209052FB009B244B /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
 		182A8034209052FB009B244B /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		182A803C20905956009B244B /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		182A803D20905957009B244B /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		182A803F20905977009B244B /* SQBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQBaseViewController.h; sourceTree = "<group>"; };
+		182A804020905977009B244B /* SQBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQBaseViewController.m; sourceTree = "<group>"; };
+		182A804220905AC7009B244B /* SQBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQBaseTableViewController.h; sourceTree = "<group>"; };
+		182A804320905AC7009B244B /* SQBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQBaseTableViewController.m; sourceTree = "<group>"; };
+		182A804520905B2F009B244B /* SQBaseWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQBaseWebViewController.h; sourceTree = "<group>"; };
+		182A804620905B2F009B244B /* SQBaseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQBaseWebViewController.m; sourceTree = "<group>"; };
+		182A8048209060B2009B244B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		182A804920906193009B244B /* SQHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQHeaderFile.h; sourceTree = "<group>"; };
+		182A804A209061C9009B244B /* SQConstantFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQConstantFile.h; sourceTree = "<group>"; };
+		182A804B20906201009B244B /* SQMacroFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQMacroFile.h; sourceTree = "<group>"; };
+		182A804D20906243009B244B /* SQApiUrlFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQApiUrlFile.h; sourceTree = "<group>"; };
 		7F81FF23EACCE665CD687ECC /* Pods-SQAPPSTART.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAPPSTART.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EED8B745BDDA93AD30815D /* Pods-SQAPPSTART.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAPPSTART.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART.release.xcconfig"; sourceTree = "<group>"; };
 		FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQAPPSTART.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,6 +263,12 @@
 		182A80192090336F009B244B /* BaseController */ = {
 			isa = PBXGroup;
 			children = (
+				182A803F20905977009B244B /* SQBaseViewController.h */,
+				182A804020905977009B244B /* SQBaseViewController.m */,
+				182A804220905AC7009B244B /* SQBaseTableViewController.h */,
+				182A804320905AC7009B244B /* SQBaseTableViewController.m */,
+				182A804520905B2F009B244B /* SQBaseWebViewController.h */,
+				182A804620905B2F009B244B /* SQBaseWebViewController.m */,
 			);
 			path = BaseController;
 			sourceTree = "<group>";
@@ -267,6 +290,8 @@
 		182A801C209033F3009B244B /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				182A803C20905956009B244B /* UINavigationController+FDFullscreenPopGesture.h */,
+				182A803D20905957009B244B /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -281,6 +306,11 @@
 		182A801E209034AB009B244B /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				182A804B20906201009B244B /* SQMacroFile.h */,
+				182A804A209061C9009B244B /* SQConstantFile.h */,
+				182A804D20906243009B244B /* SQApiUrlFile.h */,
+				182A804920906193009B244B /* SQHeaderFile.h */,
+				182A8048209060B2009B244B /* PrefixHeader.pch */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -543,6 +573,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182A803E20905957009B244B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				182A8036209052FB009B244B /* TAAnimatedDotView.m in Sources */,
 				182A7FEE209031A7009B244B /* main.m in Sources */,
 				182A8039209052FB009B244B /* SDCollectionViewCell.m in Sources */,
@@ -550,7 +581,10 @@
 				182A803B209052FB009B244B /* UIView+SDExtension.m in Sources */,
 				182A7FE0209031A6009B244B /* AppDelegate.m in Sources */,
 				182A8037209052FB009B244B /* TADotView.m in Sources */,
+				182A804420905AC7009B244B /* SQBaseTableViewController.m in Sources */,
+				182A804720905B2F009B244B /* SQBaseWebViewController.m in Sources */,
 				182A8038209052FB009B244B /* TAPageControl.m in Sources */,
+				182A804120905977009B244B /* SQBaseViewController.m in Sources */,
 				182A803A209052FB009B244B /* SDCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -703,6 +737,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = SQAPPSTART/Utils/Macro/PrefixHeader.pch;
 				INFOPLIST_FILE = SQAPPSTART/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -720,6 +755,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = SQAPPSTART/Utils/Macro/PrefixHeader.pch;
 				INFOPLIST_FILE = SQAPPSTART/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

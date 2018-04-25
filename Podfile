@@ -25,7 +25,6 @@ pod ‘SVProgressHUD’
 
 #显示相关
 pod 'Masonry'
-pod 'MOBFoundation'
 pod 'M80AttributedLabel'
 pod 'DZNEmptyDataSet'
 

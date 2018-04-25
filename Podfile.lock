@@ -26,7 +26,6 @@ PODS:
   - M80AttributedLabel (1.6.3)
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.3)
-  - MOBFoundation (3.1.3)
   - SVProgressHUD (2.2.5)
   - Toast (4.0.0)
   - TZImagePickerController (2.1.0.1)
@@ -51,7 +50,6 @@ DEPENDENCIES:
   - M80AttributedLabel
   - Masonry
   - MJRefresh
-  - MOBFoundation
   - SVProgressHUD
   - Toast
   - TZImagePickerController
@@ -72,7 +70,6 @@ SPEC CHECKSUMS:
   M80AttributedLabel: d06543195d3e451d2ea62ad76d04aa9cea7661d4
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
-  MOBFoundation: fcaed93566814b662dc51459e5712ae559a3ac9c
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   TZImagePickerController: 640f838cfd3e612cbf73d2f551bf0112973708ac
@@ -82,6 +79,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 6fed0a1ed76fc44d382e6a21d59b234d30c20c2e
+PODFILE CHECKSUM: f03fc166efd9dd28bac066cda03d38a4e03a269a
 
 COCOAPODS: 1.4.0
