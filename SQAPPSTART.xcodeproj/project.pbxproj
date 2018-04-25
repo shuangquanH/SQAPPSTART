@@ -24,6 +24,26 @@
 		182A804120905977009B244B /* SQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A804020905977009B244B /* SQBaseViewController.m */; };
 		182A804420905AC7009B244B /* SQBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A804320905AC7009B244B /* SQBaseTableViewController.m */; };
 		182A804720905B2F009B244B /* SQBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A804620905B2F009B244B /* SQBaseWebViewController.m */; };
+		182A805020906B58009B244B /* SQIphonePx.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A804F20906B58009B244B /* SQIphonePx.m */; };
+		182A805320906F07009B244B /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A805220906F07009B244B /* UIColor+Extension.m */; };
+		182A8056209074DC009B244B /* SQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8055209074DC009B244B /* SQBaseModel.m */; };
+		182A80592090775D009B244B /* NSString+SQUrlAnaly.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A80582090775D009B244B /* NSString+SQUrlAnaly.m */; };
+		182A805C20907804009B244B /* NSString+SQSubString.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A805B20907804009B244B /* NSString+SQSubString.m */; };
+		182A805F2090785B009B244B /* NSString+SQTimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A805E2090785B009B244B /* NSString+SQTimeStamp.m */; };
+		182A806220907916009B244B /* NSString+SQSizeOfString.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A806120907916009B244B /* NSString+SQSizeOfString.m */; };
+		182A8065209079B3009B244B /* NSString+SQCheckString.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8064209079B3009B244B /* NSString+SQCheckString.m */; };
+		182A806820907A87009B244B /* UIImage+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A806720907A87009B244B /* UIImage+SQExtension.m */; };
+		182A806B20907BC0009B244B /* UIImageView+SQExtension_m.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A806A20907BC0009B244B /* UIImageView+SQExtension_m.m */; };
+		182A806E20907D83009B244B /* UIView+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A806D20907D83009B244B /* UIView+SQExtension.m */; };
+		182A807120907E84009B244B /* UILabel+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A807020907E84009B244B /* UILabel+SQExtension.m */; };
+		182A807420907F72009B244B /* UITabBar+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A807320907F72009B244B /* UITabBar+SQExtension.m */; };
+		182A80772090801B009B244B /* UIButton+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A80762090801B009B244B /* UIButton+SQExtension.m */; };
+		182A807A209081BA009B244B /* UIBarButtonItem+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8079209081BA009B244B /* UIBarButtonItem+SQExtension.m */; };
+		182A807D209082DE009B244B /* SQDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A807C209082DE009B244B /* SQDataCache.m */; };
+		182A80802090841A009B244B /* SQGetNowDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A807F2090841A009B244B /* SQGetNowDate.m */; };
+		182A8083209084D0009B244B /* UITableView+SQAddHeadTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8082209084D0009B244B /* UITableView+SQAddHeadTip.m */; };
+		182A8086209087B8009B244B /* SQTimeDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8085209087B8009B244B /* SQTimeDelay.m */; };
+		182A80892090896B009B244B /* SQStartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A80882090896B009B244B /* SQStartManager.m */; };
 		996360B8AA029987D621F671 /* libPods-SQAPPSTART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +105,46 @@
 		182A804A209061C9009B244B /* SQConstantFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQConstantFile.h; sourceTree = "<group>"; };
 		182A804B20906201009B244B /* SQMacroFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQMacroFile.h; sourceTree = "<group>"; };
 		182A804D20906243009B244B /* SQApiUrlFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQApiUrlFile.h; sourceTree = "<group>"; };
+		182A804E20906B58009B244B /* SQIphonePx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQIphonePx.h; sourceTree = "<group>"; };
+		182A804F20906B58009B244B /* SQIphonePx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQIphonePx.m; sourceTree = "<group>"; };
+		182A805120906F07009B244B /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		182A805220906F07009B244B /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		182A8054209074DC009B244B /* SQBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQBaseModel.h; sourceTree = "<group>"; };
+		182A8055209074DC009B244B /* SQBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQBaseModel.m; sourceTree = "<group>"; };
+		182A80572090775D009B244B /* NSString+SQUrlAnaly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SQUrlAnaly.h"; sourceTree = "<group>"; };
+		182A80582090775D009B244B /* NSString+SQUrlAnaly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQUrlAnaly.m"; sourceTree = "<group>"; };
+		182A805A20907804009B244B /* NSString+SQSubString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SQSubString.h"; sourceTree = "<group>"; };
+		182A805B20907804009B244B /* NSString+SQSubString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQSubString.m"; sourceTree = "<group>"; };
+		182A805D2090785B009B244B /* NSString+SQTimeStamp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SQTimeStamp.h"; sourceTree = "<group>"; };
+		182A805E2090785B009B244B /* NSString+SQTimeStamp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQTimeStamp.m"; sourceTree = "<group>"; };
+		182A806020907916009B244B /* NSString+SQSizeOfString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SQSizeOfString.h"; sourceTree = "<group>"; };
+		182A806120907916009B244B /* NSString+SQSizeOfString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQSizeOfString.m"; sourceTree = "<group>"; };
+		182A8063209079B3009B244B /* NSString+SQCheckString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SQCheckString.h"; sourceTree = "<group>"; };
+		182A8064209079B3009B244B /* NSString+SQCheckString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SQCheckString.m"; sourceTree = "<group>"; };
+		182A806620907A87009B244B /* UIImage+SQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SQExtension.h"; sourceTree = "<group>"; };
+		182A806720907A87009B244B /* UIImage+SQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SQExtension.m"; sourceTree = "<group>"; };
+		182A806920907BC0009B244B /* UIImageView+SQExtension_m.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SQExtension_m.h"; sourceTree = "<group>"; };
+		182A806A20907BC0009B244B /* UIImageView+SQExtension_m.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SQExtension_m.m"; sourceTree = "<group>"; };
+		182A806C20907D83009B244B /* UIView+SQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SQExtension.h"; sourceTree = "<group>"; };
+		182A806D20907D83009B244B /* UIView+SQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SQExtension.m"; sourceTree = "<group>"; };
+		182A806F20907E84009B244B /* UILabel+SQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+SQExtension.h"; sourceTree = "<group>"; };
+		182A807020907E84009B244B /* UILabel+SQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SQExtension.m"; sourceTree = "<group>"; };
+		182A807220907F72009B244B /* UITabBar+SQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+SQExtension.h"; sourceTree = "<group>"; };
+		182A807320907F72009B244B /* UITabBar+SQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+SQExtension.m"; sourceTree = "<group>"; };
+		182A80752090801B009B244B /* UIButton+SQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SQExtension.h"; sourceTree = "<group>"; };
+		182A80762090801B009B244B /* UIButton+SQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SQExtension.m"; sourceTree = "<group>"; };
+		182A8078209081BA009B244B /* UIBarButtonItem+SQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SQExtension.h"; sourceTree = "<group>"; };
+		182A8079209081BA009B244B /* UIBarButtonItem+SQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SQExtension.m"; sourceTree = "<group>"; };
+		182A807B209082DE009B244B /* SQDataCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQDataCache.h; sourceTree = "<group>"; };
+		182A807C209082DE009B244B /* SQDataCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQDataCache.m; sourceTree = "<group>"; };
+		182A807E2090841A009B244B /* SQGetNowDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQGetNowDate.h; sourceTree = "<group>"; };
+		182A807F2090841A009B244B /* SQGetNowDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQGetNowDate.m; sourceTree = "<group>"; };
+		182A8081209084D0009B244B /* UITableView+SQAddHeadTip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+SQAddHeadTip.h"; sourceTree = "<group>"; };
+		182A8082209084D0009B244B /* UITableView+SQAddHeadTip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SQAddHeadTip.m"; sourceTree = "<group>"; };
+		182A8084209087B8009B244B /* SQTimeDelay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQTimeDelay.h; sourceTree = "<group>"; };
+		182A8085209087B8009B244B /* SQTimeDelay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQTimeDelay.m; sourceTree = "<group>"; };
+		182A80872090896B009B244B /* SQStartManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQStartManager.h; sourceTree = "<group>"; };
+		182A80882090896B009B244B /* SQStartManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQStartManager.m; sourceTree = "<group>"; };
 		7F81FF23EACCE665CD687ECC /* Pods-SQAPPSTART.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAPPSTART.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EED8B745BDDA93AD30815D /* Pods-SQAPPSTART.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAPPSTART.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART.release.xcconfig"; sourceTree = "<group>"; };
 		FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQAPPSTART.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,8 +214,8 @@
 				182A80182090335A009B244B /* Category */,
 				182A8010209031E3009B244B /* Utils */,
 				182A8011209031FF009B244B /* NetWork */,
-				182A80172090323B009B244B /* Sources */,
 				182A801520903231009B244B /* Vendor */,
+				182A80172090323B009B244B /* Sources */,
 				182A801620903236009B244B /* Libs */,
 				182A801420903227009B244B /* Other */,
 			);
@@ -283,6 +343,8 @@
 		182A801B20903384009B244B /* BaseModel */ = {
 			isa = PBXGroup;
 			children = (
+				182A8054209074DC009B244B /* SQBaseModel.h */,
+				182A8055209074DC009B244B /* SQBaseModel.m */,
 			);
 			path = BaseModel;
 			sourceTree = "<group>";
@@ -290,8 +352,26 @@
 		182A801C209033F3009B244B /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				182A8078209081BA009B244B /* UIBarButtonItem+SQExtension.h */,
+				182A8079209081BA009B244B /* UIBarButtonItem+SQExtension.m */,
 				182A803C20905956009B244B /* UINavigationController+FDFullscreenPopGesture.h */,
 				182A803D20905957009B244B /* UINavigationController+FDFullscreenPopGesture.m */,
+				182A805120906F07009B244B /* UIColor+Extension.h */,
+				182A805220906F07009B244B /* UIColor+Extension.m */,
+				182A806620907A87009B244B /* UIImage+SQExtension.h */,
+				182A806720907A87009B244B /* UIImage+SQExtension.m */,
+				182A806920907BC0009B244B /* UIImageView+SQExtension_m.h */,
+				182A806A20907BC0009B244B /* UIImageView+SQExtension_m.m */,
+				182A806C20907D83009B244B /* UIView+SQExtension.h */,
+				182A806D20907D83009B244B /* UIView+SQExtension.m */,
+				182A806F20907E84009B244B /* UILabel+SQExtension.h */,
+				182A807020907E84009B244B /* UILabel+SQExtension.m */,
+				182A807220907F72009B244B /* UITabBar+SQExtension.h */,
+				182A807320907F72009B244B /* UITabBar+SQExtension.m */,
+				182A80752090801B009B244B /* UIButton+SQExtension.h */,
+				182A80762090801B009B244B /* UIButton+SQExtension.m */,
+				182A8081209084D0009B244B /* UITableView+SQAddHeadTip.h */,
+				182A8082209084D0009B244B /* UITableView+SQAddHeadTip.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -299,6 +379,16 @@
 		182A801D20903416009B244B /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				182A80572090775D009B244B /* NSString+SQUrlAnaly.h */,
+				182A80582090775D009B244B /* NSString+SQUrlAnaly.m */,
+				182A805A20907804009B244B /* NSString+SQSubString.h */,
+				182A805B20907804009B244B /* NSString+SQSubString.m */,
+				182A805D2090785B009B244B /* NSString+SQTimeStamp.h */,
+				182A805E2090785B009B244B /* NSString+SQTimeStamp.m */,
+				182A806020907916009B244B /* NSString+SQSizeOfString.h */,
+				182A806120907916009B244B /* NSString+SQSizeOfString.m */,
+				182A8063209079B3009B244B /* NSString+SQCheckString.h */,
+				182A8064209079B3009B244B /* NSString+SQCheckString.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -318,6 +408,14 @@
 		182A801F209034B2009B244B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				182A804E20906B58009B244B /* SQIphonePx.h */,
+				182A804F20906B58009B244B /* SQIphonePx.m */,
+				182A807B209082DE009B244B /* SQDataCache.h */,
+				182A807C209082DE009B244B /* SQDataCache.m */,
+				182A807E2090841A009B244B /* SQGetNowDate.h */,
+				182A807F2090841A009B244B /* SQGetNowDate.m */,
+				182A8084209087B8009B244B /* SQTimeDelay.h */,
+				182A8085209087B8009B244B /* SQTimeDelay.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -325,6 +423,8 @@
 		182A8020209035A3009B244B /* AppStart */ = {
 			isa = PBXGroup;
 			children = (
+				182A80872090896B009B244B /* SQStartManager.h */,
+				182A80882090896B009B244B /* SQStartManager.m */,
 			);
 			path = AppStart;
 			sourceTree = "<group>";
@@ -574,18 +674,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				182A803E20905957009B244B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				182A805C20907804009B244B /* NSString+SQSubString.m in Sources */,
+				182A806220907916009B244B /* NSString+SQSizeOfString.m in Sources */,
+				182A80802090841A009B244B /* SQGetNowDate.m in Sources */,
+				182A807420907F72009B244B /* UITabBar+SQExtension.m in Sources */,
 				182A8036209052FB009B244B /* TAAnimatedDotView.m in Sources */,
 				182A7FEE209031A7009B244B /* main.m in Sources */,
+				182A8065209079B3009B244B /* NSString+SQCheckString.m in Sources */,
 				182A8039209052FB009B244B /* SDCollectionViewCell.m in Sources */,
 				182A8035209052FB009B244B /* TAAbstractDotView.m in Sources */,
+				182A8086209087B8009B244B /* SQTimeDelay.m in Sources */,
+				182A807120907E84009B244B /* UILabel+SQExtension.m in Sources */,
 				182A803B209052FB009B244B /* UIView+SDExtension.m in Sources */,
+				182A806B20907BC0009B244B /* UIImageView+SQExtension_m.m in Sources */,
+				182A806820907A87009B244B /* UIImage+SQExtension.m in Sources */,
 				182A7FE0209031A6009B244B /* AppDelegate.m in Sources */,
+				182A8083209084D0009B244B /* UITableView+SQAddHeadTip.m in Sources */,
+				182A806E20907D83009B244B /* UIView+SQExtension.m in Sources */,
+				182A80892090896B009B244B /* SQStartManager.m in Sources */,
+				182A80592090775D009B244B /* NSString+SQUrlAnaly.m in Sources */,
+				182A805320906F07009B244B /* UIColor+Extension.m in Sources */,
+				182A8056209074DC009B244B /* SQBaseModel.m in Sources */,
+				182A807D209082DE009B244B /* SQDataCache.m in Sources */,
+				182A807A209081BA009B244B /* UIBarButtonItem+SQExtension.m in Sources */,
 				182A8037209052FB009B244B /* TADotView.m in Sources */,
 				182A804420905AC7009B244B /* SQBaseTableViewController.m in Sources */,
 				182A804720905B2F009B244B /* SQBaseWebViewController.m in Sources */,
+				182A805020906B58009B244B /* SQIphonePx.m in Sources */,
 				182A8038209052FB009B244B /* TAPageControl.m in Sources */,
+				182A80772090801B009B244B /* UIButton+SQExtension.m in Sources */,
 				182A804120905977009B244B /* SQBaseViewController.m in Sources */,
 				182A803A209052FB009B244B /* SDCycleScrollView.m in Sources */,
+				182A805F2090785B009B244B /* NSString+SQTimeStamp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
