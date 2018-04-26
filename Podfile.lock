@@ -19,6 +19,7 @@ PODS:
   - DXPopover (0.1.1)
   - DZNEmptyDataSet (1.8.1)
   - JCore (1.1.9)
+  - JKCategories (1.7)
   - JPush (3.0.9):
     - JCore (~> 1.1.7)
   - JShare (1.5.0):
@@ -28,7 +29,7 @@ PODS:
   - MJRefresh (3.1.15.3)
   - SVProgressHUD (2.2.5)
   - Toast (4.0.0)
-  - TZImagePickerController (2.1.0.1)
+  - TZImagePickerController (2.1.0.2)
   - YYCache (1.0.4)
   - YYImage (1.0.4):
     - YYImage/Core (= 1.0.4)
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - Bugly
   - DXPopover
   - DZNEmptyDataSet
+  - JKCategories
   - JPush
   - JShare
   - M80AttributedLabel
@@ -65,6 +67,7 @@ SPEC CHECKSUMS:
   DXPopover: 13e6bbd1a0da4e62b2190de51f43a94850769e0f
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   JCore: 27598485098d0db99d2812cba048003457d08cfb
+  JKCategories: 5136d903ed6a17e700cac984db9fc9dcfaad2954
   JPush: 003d9eaef8ba2df76de32573d0c8aa62b92b3c82
   JShare: 8a13dc4d5ae987f69af1ea9876b94c3c9c40c6cd
   M80AttributedLabel: d06543195d3e451d2ea62ad76d04aa9cea7661d4
@@ -72,13 +75,13 @@ SPEC CHECKSUMS:
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
-  TZImagePickerController: 640f838cfd3e612cbf73d2f551bf0112973708ac
+  TZImagePickerController: 3aedbd39653a3db37408f0f78a9c4131b273d7bd
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: f03fc166efd9dd28bac066cda03d38a4e03a269a
+PODFILE CHECKSUM: 5027311a4ee7f680499b5cc8f528ebb550820457
 
 COCOAPODS: 1.4.0

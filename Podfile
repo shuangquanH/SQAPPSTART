@@ -33,7 +33,7 @@ pod 'DZNEmptyDataSet'
 pod 'Bugly'
 pod 'AutoScrollLabel'
 pod 'TZImagePickerController'
-
+pod 'JKCategories'
 
 
 end
