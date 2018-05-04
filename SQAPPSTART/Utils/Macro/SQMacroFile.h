@@ -17,6 +17,8 @@
 # define NSLog(...) {}
 #endif
 
+/**弱引用weakself*/
+#define WeakSelf(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
 /** 屏幕宽度 */
 #define KAPP_WIDTH          ([SQIphonePx shareInstance].phoneWidth)

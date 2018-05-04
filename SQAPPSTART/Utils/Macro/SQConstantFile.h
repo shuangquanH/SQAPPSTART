@@ -10,10 +10,14 @@
 #define SQConstantFile_h
 #endif /* SQConstantFile_h */
 
-/** app存储路径key */
-#define KCACHEKEY           @"YYCACHEKEYOFAPP_CACHEKEY"
+
 /** 缓存数最大值 */
 #define KCACHMAX            60
+
+
+/** app存储路径key */
+#define KCACHEKEY           @"YYCACHEKEYOFAPP_CACHEKEY"
+
 
 /** 通知中心的key */
 

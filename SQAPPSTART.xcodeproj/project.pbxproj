@@ -45,6 +45,14 @@
 		182A8086209087B8009B244B /* SQTimeDelay.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A8085209087B8009B244B /* SQTimeDelay.m */; };
 		182A80892090896B009B244B /* SQStartManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A80882090896B009B244B /* SQStartManager.m */; };
 		996360B8AA029987D621F671 /* libPods-SQAPPSTART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */; };
+		E90BBDDB209C04C2006DCB7B /* SQBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BBDDA209C04C2006DCB7B /* SQBaseTableViewCell.m */; };
+		E90BBDDE209C04F9006DCB7B /* SQBaseHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BBDDD209C04F9006DCB7B /* SQBaseHeaderFooterView.m */; };
+		E90BBDE1209C0533006DCB7B /* SQBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BBDE0209C0533006DCB7B /* SQBaseImageView.m */; };
+		E90BBDE4209C05A2006DCB7B /* SQBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BBDE3209C05A2006DCB7B /* SQBaseTableView.m */; };
+		E90BBDE7209C07D8006DCB7B /* SQRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BBDE6209C07D8006DCB7B /* SQRequest.m */; };
+		E90BBDED209C080F006DCB7B /* SomeLibs.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BBDEC209C080F006DCB7B /* SomeLibs.m */; };
+		E90BBDF1209C086D006DCB7B /* SQRootNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BBDF0209C086D006DCB7B /* SQRootNavigationVC.m */; };
+		E90BBDF5209C0894006DCB7B /* SQLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E90BBDF4209C0894006DCB7B /* SQLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +155,22 @@
 		182A80882090896B009B244B /* SQStartManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQStartManager.m; sourceTree = "<group>"; };
 		7F81FF23EACCE665CD687ECC /* Pods-SQAPPSTART.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAPPSTART.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART.debug.xcconfig"; sourceTree = "<group>"; };
 		D1EED8B745BDDA93AD30815D /* Pods-SQAPPSTART.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQAPPSTART.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQAPPSTART/Pods-SQAPPSTART.release.xcconfig"; sourceTree = "<group>"; };
+		E90BBDD9209C04C2006DCB7B /* SQBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQBaseTableViewCell.h; sourceTree = "<group>"; };
+		E90BBDDA209C04C2006DCB7B /* SQBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQBaseTableViewCell.m; sourceTree = "<group>"; };
+		E90BBDDC209C04F9006DCB7B /* SQBaseHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQBaseHeaderFooterView.h; sourceTree = "<group>"; };
+		E90BBDDD209C04F9006DCB7B /* SQBaseHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQBaseHeaderFooterView.m; sourceTree = "<group>"; };
+		E90BBDDF209C0533006DCB7B /* SQBaseImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQBaseImageView.h; sourceTree = "<group>"; };
+		E90BBDE0209C0533006DCB7B /* SQBaseImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQBaseImageView.m; sourceTree = "<group>"; };
+		E90BBDE2209C05A2006DCB7B /* SQBaseTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQBaseTableView.h; sourceTree = "<group>"; };
+		E90BBDE3209C05A2006DCB7B /* SQBaseTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQBaseTableView.m; sourceTree = "<group>"; };
+		E90BBDE5209C07D8006DCB7B /* SQRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SQRequest.h; path = SQAPPSTART/NetWork/SQRequest.h; sourceTree = SOURCE_ROOT; };
+		E90BBDE6209C07D8006DCB7B /* SQRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SQRequest.m; path = SQAPPSTART/NetWork/SQRequest.m; sourceTree = SOURCE_ROOT; };
+		E90BBDEB209C080F006DCB7B /* SomeLibs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeLibs.h; sourceTree = "<group>"; };
+		E90BBDEC209C080F006DCB7B /* SomeLibs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeLibs.m; sourceTree = "<group>"; };
+		E90BBDEF209C086D006DCB7B /* SQRootNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQRootNavigationVC.h; sourceTree = "<group>"; };
+		E90BBDF0209C086D006DCB7B /* SQRootNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRootNavigationVC.m; sourceTree = "<group>"; };
+		E90BBDF3209C0894006DCB7B /* SQLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SQLoginViewController.h; path = SQAPPSTART/Other/AppRoot/SQLoginViewController.h; sourceTree = SOURCE_ROOT; };
+		E90BBDF4209C0894006DCB7B /* SQLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SQLoginViewController.m; path = SQAPPSTART/Other/AppRoot/SQLoginViewController.m; sourceTree = SOURCE_ROOT; };
 		FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQAPPSTART.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -213,10 +237,10 @@
 				182A80122090320F009B244B /* Bases */,
 				182A80182090335A009B244B /* Category */,
 				182A8010209031E3009B244B /* Utils */,
-				182A8011209031FF009B244B /* NetWork */,
+				E90BBDE9209C07E4006DCB7B /* NetWork */,
 				182A801520903231009B244B /* Vendor */,
+				E90BBDEA209C0801006DCB7B /* Libs */,
 				182A80172090323B009B244B /* Sources */,
-				182A801620903236009B244B /* Libs */,
 				182A801420903227009B244B /* Other */,
 			);
 			path = SQAPPSTART;
@@ -249,18 +273,11 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		182A8011209031FF009B244B /* NetWork */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NetWork;
-			sourceTree = "<group>";
-		};
 		182A80122090320F009B244B /* Bases */ = {
 			isa = PBXGroup;
 			children = (
 				182A801B20903384009B244B /* BaseModel */,
-				182A801A2090337D009B244B /* BaseView */,
+				E90BBDD8209C0494006DCB7B /* BaseView */,
 				182A80192090336F009B244B /* BaseController */,
 			);
 			path = Bases;
@@ -277,8 +294,8 @@
 			isa = PBXGroup;
 			children = (
 				182A8020209035A3009B244B /* AppStart */,
-				182A8021209035AB009B244B /* AppRoot */,
-				182A8022209035D0009B244B /* AppLogin */,
+				E90BBDEE209C0834006DCB7B /* AppRoot */,
+				E90BBDF2209C0877006DCB7B /* AppLogin */,
 				182A7FED209031A7009B244B /* main.m */,
 				182A7FEC209031A7009B244B /* Info.plist */,
 				182A7FDE209031A6009B244B /* AppDelegate.h */,
@@ -294,13 +311,6 @@
 				182A8025209052FB009B244B /* SDCycleScrollView */,
 			);
 			path = Vendor;
-			sourceTree = "<group>";
-		};
-		182A801620903236009B244B /* Libs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Libs;
 			sourceTree = "<group>";
 		};
 		182A80172090323B009B244B /* Sources */ = {
@@ -331,13 +341,6 @@
 				182A804620905B2F009B244B /* SQBaseWebViewController.m */,
 			);
 			path = BaseController;
-			sourceTree = "<group>";
-		};
-		182A801A2090337D009B244B /* BaseView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BaseView;
 			sourceTree = "<group>";
 		};
 		182A801B20903384009B244B /* BaseModel */ = {
@@ -429,20 +432,6 @@
 			path = AppStart;
 			sourceTree = "<group>";
 		};
-		182A8021209035AB009B244B /* AppRoot */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AppRoot;
-			sourceTree = "<group>";
-		};
-		182A8022209035D0009B244B /* AppLogin */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AppLogin;
-			sourceTree = "<group>";
-		};
 		182A8025209052FB009B244B /* SDCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -479,6 +468,57 @@
 				D1EED8B745BDDA93AD30815D /* Pods-SQAPPSTART.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E90BBDD8209C0494006DCB7B /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				E90BBDDF209C0533006DCB7B /* SQBaseImageView.h */,
+				E90BBDE0209C0533006DCB7B /* SQBaseImageView.m */,
+				E90BBDE2209C05A2006DCB7B /* SQBaseTableView.h */,
+				E90BBDE3209C05A2006DCB7B /* SQBaseTableView.m */,
+				E90BBDD9209C04C2006DCB7B /* SQBaseTableViewCell.h */,
+				E90BBDDA209C04C2006DCB7B /* SQBaseTableViewCell.m */,
+				E90BBDDC209C04F9006DCB7B /* SQBaseHeaderFooterView.h */,
+				E90BBDDD209C04F9006DCB7B /* SQBaseHeaderFooterView.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		E90BBDE9209C07E4006DCB7B /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				E90BBDE5209C07D8006DCB7B /* SQRequest.h */,
+				E90BBDE6209C07D8006DCB7B /* SQRequest.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		E90BBDEA209C0801006DCB7B /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				E90BBDEB209C080F006DCB7B /* SomeLibs.h */,
+				E90BBDEC209C080F006DCB7B /* SomeLibs.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		E90BBDEE209C0834006DCB7B /* AppRoot */ = {
+			isa = PBXGroup;
+			children = (
+				E90BBDEF209C086D006DCB7B /* SQRootNavigationVC.h */,
+				E90BBDF0209C086D006DCB7B /* SQRootNavigationVC.m */,
+			);
+			path = AppRoot;
+			sourceTree = "<group>";
+		};
+		E90BBDF2209C0877006DCB7B /* AppLogin */ = {
+			isa = PBXGroup;
+			children = (
+				E90BBDF3209C0894006DCB7B /* SQLoginViewController.h */,
+				E90BBDF4209C0894006DCB7B /* SQLoginViewController.m */,
+			);
+			path = AppLogin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -675,7 +715,10 @@
 			files = (
 				182A803E20905957009B244B /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				182A805C20907804009B244B /* NSString+SQSubString.m in Sources */,
+				E90BBDDE209C04F9006DCB7B /* SQBaseHeaderFooterView.m in Sources */,
+				E90BBDDB209C04C2006DCB7B /* SQBaseTableViewCell.m in Sources */,
 				182A806220907916009B244B /* NSString+SQSizeOfString.m in Sources */,
+				E90BBDF5209C0894006DCB7B /* SQLoginViewController.m in Sources */,
 				182A80802090841A009B244B /* SQGetNowDate.m in Sources */,
 				182A807420907F72009B244B /* UITabBar+SQExtension.m in Sources */,
 				182A8036209052FB009B244B /* TAAnimatedDotView.m in Sources */,
@@ -684,14 +727,17 @@
 				182A8039209052FB009B244B /* SDCollectionViewCell.m in Sources */,
 				182A8035209052FB009B244B /* TAAbstractDotView.m in Sources */,
 				182A8086209087B8009B244B /* SQTimeDelay.m in Sources */,
+				E90BBDE1209C0533006DCB7B /* SQBaseImageView.m in Sources */,
 				182A807120907E84009B244B /* UILabel+SQExtension.m in Sources */,
 				182A803B209052FB009B244B /* UIView+SDExtension.m in Sources */,
 				182A806B20907BC0009B244B /* UIImageView+SQExtension_m.m in Sources */,
+				E90BBDE7209C07D8006DCB7B /* SQRequest.m in Sources */,
 				182A806820907A87009B244B /* UIImage+SQExtension.m in Sources */,
 				182A7FE0209031A6009B244B /* AppDelegate.m in Sources */,
 				182A8083209084D0009B244B /* UITableView+SQAddHeadTip.m in Sources */,
 				182A806E20907D83009B244B /* UIView+SQExtension.m in Sources */,
 				182A80892090896B009B244B /* SQStartManager.m in Sources */,
+				E90BBDE4209C05A2006DCB7B /* SQBaseTableView.m in Sources */,
 				182A80592090775D009B244B /* NSString+SQUrlAnaly.m in Sources */,
 				182A805320906F07009B244B /* UIColor+Extension.m in Sources */,
 				182A8056209074DC009B244B /* SQBaseModel.m in Sources */,
@@ -700,6 +746,8 @@
 				182A8037209052FB009B244B /* TADotView.m in Sources */,
 				182A804420905AC7009B244B /* SQBaseTableViewController.m in Sources */,
 				182A804720905B2F009B244B /* SQBaseWebViewController.m in Sources */,
+				E90BBDF1209C086D006DCB7B /* SQRootNavigationVC.m in Sources */,
+				E90BBDED209C080F006DCB7B /* SomeLibs.m in Sources */,
 				182A805020906B58009B244B /* SQIphonePx.m in Sources */,
 				182A8038209052FB009B244B /* TAPageControl.m in Sources */,
 				182A80772090801B009B244B /* UIButton+SQExtension.m in Sources */,
