@@ -169,8 +169,8 @@
 		E90BBDEC209C080F006DCB7B /* SomeLibs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeLibs.m; sourceTree = "<group>"; };
 		E90BBDEF209C086D006DCB7B /* SQRootNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQRootNavigationVC.h; sourceTree = "<group>"; };
 		E90BBDF0209C086D006DCB7B /* SQRootNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQRootNavigationVC.m; sourceTree = "<group>"; };
-		E90BBDF3209C0894006DCB7B /* SQLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SQLoginViewController.h; path = SQAPPSTART/Other/AppRoot/SQLoginViewController.h; sourceTree = SOURCE_ROOT; };
-		E90BBDF4209C0894006DCB7B /* SQLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SQLoginViewController.m; path = SQAPPSTART/Other/AppRoot/SQLoginViewController.m; sourceTree = SOURCE_ROOT; };
+		E90BBDF3209C0894006DCB7B /* SQLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SQLoginViewController.h; path = SQAPPSTART/Other/AppLogin/SQLoginViewController.h; sourceTree = SOURCE_ROOT; };
+		E90BBDF4209C0894006DCB7B /* SQLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SQLoginViewController.m; path = SQAPPSTART/Other/AppLogin/SQLoginViewController.m; sourceTree = SOURCE_ROOT; };
 		FC21D2D5666D757136004434 /* libPods-SQAPPSTART.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQAPPSTART.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -295,7 +295,7 @@
 			children = (
 				182A8020209035A3009B244B /* AppStart */,
 				E90BBDEE209C0834006DCB7B /* AppRoot */,
-				E90BBDF2209C0877006DCB7B /* AppLogin */,
+				E94137A8209FF65D003F3649 /* AppLogin */,
 				182A7FED209031A7009B244B /* main.m */,
 				182A7FEC209031A7009B244B /* Info.plist */,
 				182A7FDE209031A6009B244B /* AppDelegate.h */,
@@ -512,7 +512,7 @@
 			path = AppRoot;
 			sourceTree = "<group>";
 		};
-		E90BBDF2209C0877006DCB7B /* AppLogin */ = {
+		E94137A8209FF65D003F3649 /* AppLogin */ = {
 			isa = PBXGroup;
 			children = (
 				E90BBDF3209C0894006DCB7B /* SQLoginViewController.h */,
