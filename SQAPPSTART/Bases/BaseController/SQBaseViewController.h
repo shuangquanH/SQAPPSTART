@@ -12,6 +12,8 @@
 
 @interface SQBaseViewController : UIViewController
 
+- (void)setNavTitleString:(NSString *)string;
+
 - (void)pop;
 
 - (void)popToRootVc;

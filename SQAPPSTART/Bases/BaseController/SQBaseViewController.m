@@ -10,6 +10,9 @@
 
 @implementation SQBaseViewController
 
+- (void)setNavTitleString:(NSString *)string {
+    self.navigationItem.title = string;
+}
 
 - (void)pop {
     if (self.navigationController == nil) return ;
